@@ -2,19 +2,17 @@
 
 A Cloudflare Worker that maps **Halo PSA agents** and **client organizations** on a dark-mode Leaflet map. Addresses come from Halo; geocoding runs in the browser via a Worker proxy to stay within Cloudflare limits.
 
-![Halo Client Mapper — organization tooltip with logo on the map](docs/screenshot.png)
-
 ## Features
 
-- **Interactive map** — Pan and zoom; the map fits all pins when loading completes.
-- **Agent pins** — Blue circular markers; distinct from organizations.
-- **Organization pins** — Green square markers.
-- **Hover tooltips** — Name, type, site (orgs), and full address on hover.
-- **Agent photos** — Profile images from Halo (`agentphotopath`), proxied through the Worker.
-- **Organization logos** — Client logos from Halo (`logo` / attachment images), proxied through the Worker.
-- **Layer toggles** — Show or hide **Agents** and **Organizations** independently.
-- **Loading progress** — Top-right progress bar during Halo fetch and geocoding.
-- **Debug tab** — Runtime log and a checklist of required secrets/variables (no secret values shown).
+- **Interactive map**: Pan and zoom; the map fits all pins when loading completes.
+- **Agent pins**: Blue circular markers, distinct from organizations.
+- **Organization pins**: Green square markers.
+- **Hover tooltips**: Name, type, site (orgs), and full address on hover.
+- **Agent photos**: Profile images from Halo (`agentphotopath`), proxied through the Worker.
+- **Organization logos**: Client logos from Halo (`logo` / attachment images), proxied through the Worker.
+- **Layer toggles**: Show or hide **Agents** and **Organizations** independently.
+- **Loading progress**: Top-right progress bar during Halo fetch and geocoding.
+- **Debug tab**: Runtime log and a checklist of required secrets/variables (no secret values shown).
 
 ## Halo API credentials
 
