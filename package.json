@@ -8,7 +8,6 @@
     "deploy": "wrangler deploy",
     "check": "wrangler check"
   },
-  "author": "Good Heart Tech",
   "devDependencies": {
     "wrangler": "^4.0.0"
   },
