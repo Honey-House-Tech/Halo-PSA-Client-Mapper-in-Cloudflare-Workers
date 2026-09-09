@@ -40,7 +40,7 @@ wrangler secret put HALO_BASE_URL
 
 | Variable | Definition |
 |----------|------------|
-| `HALO_TENANT` | OAuth **tenant** slug for hosted Halo (e.g. `goodheart`). If omitted, the Worker infers it from the hostname in `HALO_BASE_URL` (subdomain before `.halopsa.com`). |
+| `HALO_TENANT` | OAuth **tenant** slug for hosted Halo (e.g. `contoso`). If omitted, the Worker infers it from the hostname in `HALO_BASE_URL` (subdomain before `.halopsa.com`). |
 | `HALO_AGENT_ADDRESS_FIELD_ID` | Halo **custom field ID** for each agent’s mailing address. Defaults to **297** if unset. Must match the field you use for agent locations in Halo. |
 
 ### Optional variable (not a secret)
@@ -85,6 +85,14 @@ When connecting this repo to **Workers Builds** (GitHub/GitLab), use:
 | **Root directory** | `/` |
 
 Set all required secrets on the Worker before the first deploy. The **Debug** tab in the app confirms whether each value is loaded (not the actual secret values).
+
+## Contributing
+
+Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Please also review our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Security
+
+Found a vulnerability? Please don't open a public issue — see [SECURITY.md](SECURITY.md) for how to report it.
 
 ## License
 

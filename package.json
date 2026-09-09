@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Map Halo PSA agents and client organizations by address",
   "main": "src/worker.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honey-House-Tech/Halo-PSA-Client-Mapper-in-Cloudflare-Workers.git"
+  },
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
