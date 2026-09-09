@@ -86,6 +86,10 @@ When connecting this repo to **Workers Builds** (GitHub/GitLab), use:
 
 Set all required secrets on the Worker before the first deploy. The **Debug** tab in the app confirms whether each value is loaded (not the actual secret values).
 
+## License
+
+MIT, see [LICENSE](LICENSE).
+
 ## About Good Heart Tech
 
 Good Heart Tech is a 100% volunteer nonprofit that provides free IT services to other nonprofits. If you enjoy this product and want to support our work, please consider donating: [https://goodhearttech.org/](https://goodhearttech.org/)
