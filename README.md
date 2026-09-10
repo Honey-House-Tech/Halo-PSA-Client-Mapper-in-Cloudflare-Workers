@@ -96,5 +96,5 @@ Found a vulnerability? Please don't open a public issue — see [SECURITY.md](SE
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+AGPL-3.0, see [LICENSE](LICENSE).
 
